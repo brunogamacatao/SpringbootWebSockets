@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat com Socket.io</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+<!-- Lista de mensagens recebidas -->
+<ul id="mensagens"></ul>
+<!-- Formulário de envio de mensagens -->
+<form id="form_chat">
+    <input id="campo_msg" autocomplete="off" />
+    <button>Enviar</button>
+</form>
+<!-- Importa a lib cliente do sockjs e stomp -->
+<script src="/webjars/sockjs-client/sockjs.min.js"></script>
+<script src="/webjars/stomp-websocket/stomp.min.js"></script>
+<!-- Importa o script do chat -->
+<script src="/chat.js"></script>
+</body>
+</html>
